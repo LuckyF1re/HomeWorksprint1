@@ -8,7 +8,7 @@ type UserType = {
   name: string
   age: number
   address: AddressType
-  // ПРИДЕТСЯ САМОМУ)
+   // ПРИДЕТСЯ САМОМУ
 };
 
 type UserListPropsType = {
@@ -16,7 +16,7 @@ type UserListPropsType = {
 
 };
 
-export const UserList = (props: UserListPropsType) => {
+ export const UserList = (props: UserListPropsType) => {
   return (
     <div id={'hw01-users'}>
       <h2>User List:</h2>
